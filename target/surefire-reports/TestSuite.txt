@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 195.104 sec <<< FAILURE!
+tmcSourceLogin(co.testNG.tmcsourceui.TMCSourceUILogin)  Time elapsed: 3.186 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at org.testng.Assert.assertTrue(Assert.java:47)
+	at co.testNG.tmcsourceui.TMCSourceUILogin.tmcSourceLogin(TMCSourceUILogin.java:53)
+
+tmcSourceLogin(co.testNG.tmcsourceui.TMCSourceUILogin)  Time elapsed: 1.574 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at org.testng.Assert.assertTrue(Assert.java:47)
+	at co.testNG.tmcsourceui.TMCSourceUILogin.tmcSourceLogin(TMCSourceUILogin.java:53)
+
+checkTagCreation(co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality)  Time elapsed: 2.291 sec  <<< FAILURE!
+java.lang.AssertionError: Invalid Tag expected:<false> but was:<true>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertFalse(Assert.java:58)
+	at co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.checkTagCreation(TestSourceUIFunctionality.java:250)
+
+createTag(co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality)  Time elapsed: 2.016 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Tag Added Successfully> but was:<Duplicate Entry for given tag version>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.createTag(TestSourceUIFunctionality.java:232)
+

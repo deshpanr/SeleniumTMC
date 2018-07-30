@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="44" passed="40">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TMCSourceUI" duration-ms="192899" started-at="2018-07-18T12:20:50Z" finished-at="2018-07-18T12:24:03Z">
+    <groups>
+      <group name="editablefields">
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.hideFlagStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="hideFlagStatusCheck" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.projectStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="projectStatusCheck" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.recommendedFlagCheck(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="recommendedFlagCheck" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.sourceStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="sourceStatusCheck" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+      </group>
+      <group name="createTag">
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.checkTagCreation(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkTagCreation" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.createTag(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="createTag" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+      </group>
+      <group name="compose 255">
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.checkCompose255BlankMode(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BlankMode" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.checkCompose255BulkMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BulkMode" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+      </group>
+      <group name="login">
+        <method signature="TMCSourceUILogin.tmcSourceLogin(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TMCSourceUILogin@6b143ee9]" name="tmcSourceLogin" class="co.testNG.tmcsourceui.TMCSourceUILogin"/>
+      </group>
+      <group name="loginfunctionality">
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="loginTMCSoure" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+      </group>
+      <group name="uploadTMCSource">
+        <method signature="TestSourceUIFunctionality$TMCSourceUIFunctionality.uploadTMCSourceFile()[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="uploadTMCSourceFile" class="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality"/>
+      </group>
+    </groups>
+    <test name="TMCSourceUIFunctionality" duration-ms="192899" started-at="2018-07-18T12:20:50Z" finished-at="2018-07-18T12:24:03Z">
+      <class name="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality">
+        <test-method status="PASS" signature="functionalityInvokeBrowser()[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="functionalityInvokeBrowser" is-config="true" duration-ms="21012" started-at="2018-07-18T12:20:50Z" finished-at="2018-07-18T12:21:11Z">
+        </test-method>
+        <test-method status="PASS" signature="loginTMCSoure(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="loginTMCSoure" duration-ms="2771" started-at="2018-07-18T12:21:24Z" finished-at="2018-07-18T12:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tmc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tmc_upload]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255BlankMode(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BlankMode" duration-ms="7432" started-at="2018-07-18T12:21:48Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please choose an appropriate mode of action from the select drop-down]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255BulkMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BulkMode" duration-ms="3803" started-at="2018-07-18T12:21:55Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:21:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bulk mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please provide Country Code : Location Table : From Provider : To Provider : From Version : To Version]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255BulkMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BulkMode" duration-ms="3637" started-at="2018-07-18T12:21:59Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bulk mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please provide Country Code]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255BulkMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BulkMode" duration-ms="3738" started-at="2018-07-18T12:22:03Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bulk mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please provide  : Location Table]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255BulkMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BulkMode" duration-ms="3556" started-at="2018-07-18T12:22:06Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bulk mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please provide  : From Provider]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255BulkMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BulkMode" duration-ms="3563" started-at="2018-07-18T12:22:10Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bulk mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please provide  : To Provider]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255BulkMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BulkMode" duration-ms="3425" started-at="2018-07-18T12:22:13Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bulk mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please provide  : From Version]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255BulkMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BulkMode" duration-ms="3485" started-at="2018-07-18T12:22:17Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bulk mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please provide  : To Version]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255BulkMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255BulkMode" duration-ms="5085" started-at="2018-07-18T12:22:20Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bulk mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Done!]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="4254" started-at="2018-07-18T12:22:26Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please provide Country Code : Location Table : Provider : Version : Location code : Comment]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="3818" started-at="2018-07-18T12:22:30Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7400]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[edit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please provide Country Code]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="3678" started-at="2018-07-18T12:22:34Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7400]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[edit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please provide  : Location Table]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="3570" started-at="2018-07-18T12:22:37Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7400]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[edit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please provide  : Provider]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="3842" started-at="2018-07-18T12:22:41Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7400]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[edit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please provide  : Version]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="3787" started-at="2018-07-18T12:22:45Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[edit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please provide  : Location code]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="3835" started-at="2018-07-18T12:22:48Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7400]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please provide  : Comment]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="4840" started-at="2018-07-18T12:22:52Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7400]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[edit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Done!]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="4315" started-at="2018-07-18T12:22:57Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7400]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[edit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Done!]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="4392" started-at="2018-07-18T12:23:01Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7400]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[255]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[edit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Done!]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="checkCompose255SingleMode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkCompose255SingleMode" duration-ms="4399" started-at="2018-07-18T12:23:06Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single location mode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TECHNUM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7400]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[edit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Done!]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="checkTagCreation(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="checkTagCreation" duration-ms="2307" started-at="2018-07-18T12:23:10Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validTestTag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tag Added Successfully]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid Tag expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid Tag expected:<false> but was:<true>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertFalse(Assert.java:58)
+	at co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.checkTagCreation(TestSourceUIFunctionality.java:250)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="createTag(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="createTag" duration-ms="1568" started-at="2018-07-18T12:23:13Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tag Version must be filled out!]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="createTag(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="createTag" duration-ms="2037" started-at="2018-07-18T12:23:14Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Duplicate Entry for given tag version]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="createTag(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="createTag" duration-ms="2002" started-at="2018-07-18T12:23:16Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestingTag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tag Added Successfully]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Tag Added Successfully> but was:<Duplicate Entry for given tag version>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Tag Added Successfully> but was:<Duplicate Entry for given tag version>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.createTag(TestSourceUIFunctionality.java:232)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="hideFlagStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="hideFlagStatusCheck" duration-ms="2159" started-at="2018-07-18T12:23:18Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To be delivered]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="hideFlagStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="hideFlagStatusCheck" duration-ms="1923" started-at="2018-07-18T12:23:21Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia Here]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="hideFlagStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="hideFlagStatusCheck" duration-ms="1960" started-at="2018-07-18T12:23:22Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Not Delivered]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="projectStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="projectStatusCheck" duration-ms="2263" started-at="2018-07-18T12:23:25Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="projectStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="projectStatusCheck" duration-ms="2032" started-at="2018-07-18T12:23:27Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Not implemented]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="projectStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="projectStatusCheck" duration-ms="2133" started-at="2018-07-18T12:23:29Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fusion in progress]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="projectStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="projectStatusCheck" duration-ms="1914" started-at="2018-07-18T12:23:31Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ongoing]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="projectStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="projectStatusCheck" duration-ms="2029" started-at="2018-07-18T12:23:33Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Completed]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="projectStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="projectStatusCheck" duration-ms="1955" started-at="2018-07-18T12:23:35Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To be removed]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="projectStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="projectStatusCheck" duration-ms="1980" started-at="2018-07-18T12:23:37Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Removal in progress]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="recommendedFlagCheck(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="recommendedFlagCheck" duration-ms="1863" started-at="2018-07-18T12:23:39Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[glyphicon glyphicon-star]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[glyphicon glyphicon-star-empty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[glyphicon glyphicon-star-empty]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[glyphicon glyphicon-star]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="sourceStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="sourceStatusCheck" duration-ms="2093" started-at="2018-07-18T12:23:41Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="sourceStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="sourceStatusCheck" duration-ms="1958" started-at="2018-07-18T12:23:43Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Checked]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="sourceStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="sourceStatusCheck" duration-ms="1920" started-at="2018-07-18T12:23:45Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Certified]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="sourceStatusCheck(java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="sourceStatusCheck" duration-ms="1954" started-at="2018-07-18T12:23:47Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rejected]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="uploadTMCSourceFile()[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="uploadTMCSourceFile" duration-ms="13824" started-at="2018-07-18T12:23:49Z" depends-on-methods="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality.loginTMCSoure" finished-at="2018-07-18T12:24:03Z">
+        </test-method>
+        <test-method status="PASS" signature="functionalityCloseBrowser()[pri:0, instance:co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality@47f6473]" name="functionalityCloseBrowser" is-config="true" duration-ms="765" started-at="2018-07-18T12:24:03Z" finished-at="2018-07-18T12:24:03Z">
+        </test-method>
+      </class>
+      <class name="co.testNG.tmcsourceui.TMCSourceUILogin">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:co.testNG.tmcsourceui.TMCSourceUILogin@6b143ee9]" name="invokeBrowser" is-config="true" duration-ms="11015" started-at="2018-07-18T12:21:26Z" finished-at="2018-07-18T12:21:37Z">
+        </test-method>
+        <test-method status="FAIL" signature="tmcSourceLogin(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TMCSourceUILogin@6b143ee9]" name="tmcSourceLogin" duration-ms="3173" started-at="2018-07-18T12:21:38Z" finished-at="2018-07-18T12:21:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tmc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tmc]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at org.testng.Assert.assertTrue(Assert.java:47)
+	at co.testNG.tmcsourceui.TMCSourceUILogin.tmcSourceLogin(TMCSourceUILogin.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="FAIL" signature="tmcSourceLogin(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TMCSourceUILogin@6b143ee9]" name="tmcSourceLogin" duration-ms="1577" started-at="2018-07-18T12:21:41Z" finished-at="2018-07-18T12:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tmc_upload]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at org.testng.Assert.assertTrue(Assert.java:47)
+	at co.testNG.tmcsourceui.TMCSourceUILogin.tmcSourceLogin(TMCSourceUILogin.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:974)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="tmcSourceLogin(java.lang.String, java.lang.String)[pri:0, instance:co.testNG.tmcsourceui.TMCSourceUILogin@6b143ee9]" name="tmcSourceLogin" duration-ms="4012" started-at="2018-07-18T12:21:42Z" finished-at="2018-07-18T12:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tmc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tmc_upload]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:co.testNG.tmcsourceui.TMCSourceUILogin@6b143ee9]" name="closeBrowser" is-config="true" duration-ms="1130" started-at="2018-07-18T12:21:46Z" finished-at="2018-07-18T12:21:47Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

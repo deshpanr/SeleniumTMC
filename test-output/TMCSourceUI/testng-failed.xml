@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TMCSourceUI]">
+  <test name="TMCSourceUIFunctionality(failed)">
+    <groups>
+      <run>
+        <include name="invokeBrowserfunctionality"/>
+        <include name="uploadTMCSource"/>
+        <include name="loginfunctionality"/>
+        <include name="editablefields"/>
+        <include name="createTag"/>
+        <include name="compose 255"/>
+        <include name="closeBrowserfunctionality"/>
+        <include name="invokeBrowser"/>
+        <include name="login"/>
+        <include name="closeBrowser"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="co.testNG.tmcsourceui.TMCSourceUIFunctionality">
+        <methods>
+          <include name="createTagFieldValidationsWithBlankInputField"/>
+          <include name="functionalityCloseBrowser"/>
+          <include name="functionalityLogin"/>
+          <include name="functionalityInvokeBrowser"/>
+        </methods>
+      </class> <!-- co.testNG.tmcsourceui.TMCSourceUIFunctionality -->
+    </classes>
+  </test> <!-- TMCSourceUIFunctionality(failed) -->
+</suite> <!-- Failed suite [TMCSourceUI] -->

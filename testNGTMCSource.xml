@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name='TMCSourceUI'>
+	<test name='TMCSourceUIFunctionality'>
+		<groups>
+			<run>
+				<include name="invokeBrowserfunctionality" />
+				<include name="uploadTMCSource" />
+				<include name="loginfunctionality" />
+				<include name="editablefields" />
+				<include name="createTag" />
+				<include name="compose 255" />
+				<include name="closeBrowserfunctionality" />
+				<include name="invokeBrowser" />
+				<include name="login" />
+				<include name="closeBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="co.testNG.tmcsourceui.TestSourceUIFunctionality" />
+			<class name="co.testNG.tmcsourceui.TMCSourceUILogin" />
+		</classes>
+
+
+	</test>
+</suite>
