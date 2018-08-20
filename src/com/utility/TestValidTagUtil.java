@@ -10,7 +10,7 @@ public class TestValidTagUtil {
 	
 	public static ArrayList<Object[]> getTestData(){
 		ArrayList<Object[]> myData=new ArrayList<Object[]>();
-		reader=new Xls_Reader("C:\\Users\\deshpanr\\workspace\\SeleniumTMCSource\\SeleniumTMC\\TMC_Source_Test_Data.xlsx");
+		reader=new Xls_Reader("C:\\Selenium\\seleniumtmc\\TMC_Source_Test_Data.xlsx");
 		int rowCount=reader.getRowCount("ValidTagData");
 		for (int rowNo = 2; rowNo <= rowCount; rowNo++) {
 			String createTagName=reader.getCellData("ValidTagData", "TagName",rowNo);
