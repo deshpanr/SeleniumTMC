@@ -17,20 +17,19 @@
       </run>
     </groups>
     <classes>
-      <class name="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality">
-        <methods>
-          <include name="functionalityInvokeBrowser"/>
-          <include name="functionalityCloseBrowser"/>
-          <include name="createTag" invocation-numbers="2"/>
-          <include name="loginTMCSoure"/>
-          <include name="checkTagCreation" invocation-numbers="0"/>
-        </methods>
-      </class>
       <class name="co.testNG.tmcsourceui.TMCSourceUILogin">
         <methods>
           <include name="closeBrowser"/>
           <include name="tmcSourceLogin" invocation-numbers="0 1"/>
           <include name="invokeBrowser"/>
+        </methods>
+      </class>
+      <class name="co.testNG.tmcsourceui.TestSourceUIFunctionality$TMCSourceUIFunctionality">
+        <methods>
+          <include name="functionalityInvokeBrowser"/>
+          <include name="functionalityCloseBrowser"/>
+          <include name="createTag" invocation-numbers="1"/>
+          <include name="loginTMCSoure"/>
         </methods>
       </class>
     </classes>
