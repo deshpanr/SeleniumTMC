@@ -153,7 +153,7 @@ public class TestSourceUIFunctionality {
 				  Thread.sleep(5000);
 				  WebElement fileupload=driver.findElement(By.xpath("//form[@id='upload-form']/div[1]/input[@id='sourcemdb']"));
 				  Thread.sleep(5000);
-				  fileupload.sendKeys("C:\\Users\\deshpanr\\Desktop\\KT Doc\\TMC_AND_Agencia de Mobilitat_1_0.0\\TMC_BEL_TECHNUM_1_2.10.MDB");
+				  fileupload.sendKeys("C:\\Users\\deshpanr\\Desktop\\KT Doc\\TMC_AND_Agencia de Mobilitat_1_0.0.MDB");
 				  driver.findElement(By.xpath("//form[@id='upload-form']/button[@type='submit']")).click();
 				  new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//form[@id='upload-form']/div[3]/img[@id='loadingGif']")));
 				  Assert.assertFalse(driver.findElement(By.xpath("//form[@id='upload-form']/div[3]/img[@id='loadingGif']")).isDisplayed());
@@ -163,7 +163,7 @@ public class TestSourceUIFunctionality {
 			}
 			  
 		  }
-		  @Test(dataProvider="getHideFlagData",dependsOnMethods="loginTMCSoure",groups="editablefields")
+		  @Test(dataProvider="getHideFlagData",dependsOnMethods="uploadTMCSourceFile",groups="editablefields")
 		  public void hideFlagStatusCheck(String hideFlagValue) throws InterruptedException{
 			  Actions action = new Actions(driver);
 				Thread.sleep(1000);
@@ -181,7 +181,7 @@ public class TestSourceUIFunctionality {
 				}
 		  }
 					
-		  @Test(dataProvider="getProjectStatusData",dependsOnMethods="loginTMCSoure",groups="editablefields")
+		  @Test(dataProvider="getProjectStatusData",dependsOnMethods="uploadTMCSourceFile",groups="editablefields")
 		  public void projectStatusCheck(String ProjectStatus) throws InterruptedException{
 			  Actions action = new Actions(driver);
 				Thread.sleep(1000);
@@ -199,7 +199,7 @@ public class TestSourceUIFunctionality {
 }
 }
 		  
-		  @Test(dataProvider="getSourceStatusData",dependsOnMethods="loginTMCSoure",groups="editablefields")
+		  @Test(dataProvider="getSourceStatusData",dependsOnMethods="uploadTMCSourceFile",groups="editablefields")
 		  public void sourceStatusCheck(String sourceStatus) throws InterruptedException{
 			  Actions action = new Actions(driver);
 				Thread.sleep(1000);
@@ -318,7 +318,7 @@ public class TestSourceUIFunctionality {
 				}
 		  }
 		  
-		 @Test(dataProvider="getRecommendedFlagStatus",dependsOnMethods="loginTMCSoure",groups="editablefields")
+		 @Test(dataProvider="getRecommendedFlagStatus",dependsOnMethods="uploadTMCSourceFile",groups="editablefields")
 		  public void recommendedFlagCheck(String currentFlagStatus1,String changedFlagStatus1,String currentFlagStatus2,String changedFlagStatus2){
 			 
 				try {
