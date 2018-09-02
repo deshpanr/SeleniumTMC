@@ -50,11 +50,11 @@ public class TMCSourceUILogin {
 		if(isAlertPresent()){
 		driver.switchTo().alert().accept();
 		boolean Upload=driver.findElement(By.xpath("//form[@id='upload-form']/button[1]/span[@class='glyphicon glyphicon-upload']")).isDisplayed();
-		Assert.assertTrue(Upload);
+		Assert.assertFalse(Upload, "Invalid username and password");
 			}
 			else{
 				boolean Upload=driver.findElement(By.xpath("//form[@id='upload-form']/button[1]/span[@class='glyphicon glyphicon-upload']")).isDisplayed();
-				Assert.assertFalse(Upload, "Invalid username and password");
+				Assert.assertTrue(Upload);
 				driver.navigate().to(driver.getCurrentUrl());
 			}
 	}
